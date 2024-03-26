@@ -1,25 +1,33 @@
-﻿using BookStore.Tests;
+﻿//using BookStore.Tests;
 
-Console.WriteLine("------ Variable Start -------");
-string fullName = "Emri Mbiemri";
-int age = 20;
-Console.WriteLine($"Emri:{fullName} Mosha: {age}"); //string interpolation
+//Console.WriteLine("------ Variable Start -------");
+//string fullName = "Emri Mbiemri";
+//int age = 20;
+//Console.WriteLine($"Emri:{fullName} Mosha: {age}"); //string interpolation
 
-char gender = 'M';
-DateTime dob = DateTime.Now.AddDays(-20);
+//char gender = 'M';
+//DateTime dob = DateTime.Now.AddDays(-20);
 
-var firstName = "Emri";
-var lastName = 10;
-Console.WriteLine("------ Variable End -------");
+//var firstName = "Emri";
+//var lastName = 10;
+//Console.WriteLine("------ Variable End -------");
 
-Console.WriteLine("------ Class Start -------");
+//Console.WriteLine("------ Class Start -------");
 
-var newBook = new Book();
-newBook.Id = 1;
-newBook.Title = "Book Title";
-Console.WriteLine($"Book Id: {newBook.Id} Title: {newBook.Title}");
+//var newBook = new Book();
+//newBook.Id = 1;
+//newBook.Title = "Book Title";
+//Console.WriteLine($"Book Id: {newBook.Id} Title: {newBook.Title}");
 
-var secondBook = new Book(2, "Second Book");
-Console.WriteLine($"Book Id: {secondBook.Id} Title: {secondBook.Title}");
+//var secondBook = new Book(2, "Second Book");
+//Console.WriteLine($"Book Id: {secondBook.Id} Title: {secondBook.Title}");
+
+using BookStore.Tests;
+
+var student = new Student("Emri", "Mbiemri", 20, "Adresa ketu");
+
+var studentFullName = student.GetFullName();
+
+Console.WriteLine($"Studenti: {studentFullName}");
 
 string stopHere = "";
