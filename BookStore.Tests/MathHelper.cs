@@ -42,7 +42,6 @@
             return true;
         }
 
-
         public static bool AreAllEvenNumbers(List<int> allNumbers)
         {
             for (int i = 0; i < allNumbers.Count; i++)

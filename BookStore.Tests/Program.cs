@@ -1,6 +1,4 @@
-﻿////using BookStore.Tests;
-
-using BookStore.Tests;
+﻿using BookStore.Tests;
 
 ////Console.WriteLine("------ Variable Start -------");
 ////string fullName = "Emri Mbiemri";
