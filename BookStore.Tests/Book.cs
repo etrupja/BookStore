@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BookStore.Tests
+﻿namespace BookStore.Tests
 {
     public class Book
     {
@@ -19,5 +13,11 @@ namespace BookStore.Tests
         public int Id { get; set; }
         public string Title { get; set; }
         public int NrOfPages { get; set; }
+
+
+        public string GetBookDetails(string title, int numberOfPages)
+        {
+            return $"Title: {title}, Nr of Pages: {numberOfPages}";
+        }
     }
 }
