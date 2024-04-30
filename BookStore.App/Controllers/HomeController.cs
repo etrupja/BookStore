@@ -14,10 +14,5 @@ namespace BookStore.App.Controllers
         {
             return View();
         }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
     }
 }
